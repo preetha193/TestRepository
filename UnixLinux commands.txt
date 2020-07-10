@@ -1,5 +1,6 @@
 linux commands
 new content added on 7th jul2020
+Addind one more line
 change directory:
 
 [roman@linuxbox /]$ cd/home
