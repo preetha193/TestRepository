@@ -1,0 +1,79 @@
+linux commands
+
+change directory:
+
+[roman@linuxbox /]$ cd/home
+change directory to home is done, so the prompt is changed as below
+[roman@linuxbox home]
+
+to list the files or directories:
+ls
+ls -a [displays all the files and directories including hidden ones]
+ls -l [displays all the files or dir with modified date, time, owner and their permission say write access, read access]
+ls -lh[shows sizes in human readable format]
+ls -t
+ls -r [displays files and directories in reverse order]
+ls -R[ will list very long listing directory trees]
+ls -ltr[ shows latest modification file or directory date as last]
+ls -ls[displays file size in order, big size in first]
+ls -i [displaysinode number of file or directory]
+ls --version[ displays version of ls command]
+ls --help[ list help page of ls command]
+
+
+
+whoami- tells you which user is logged in
+[root@linuxbox roman]# whoami
+
+root
+
+su-> substitute user
+
+touch - A command you can use to quickly create a file that you can also “touch” on existing files (We'll dive into that later)
+[roman@linuxbox `]$ touch createfile
+
+You'll notice that “createfile” wasn't there before but when I used it with the “touch” command it was created. Nothing is in createfile but it exists.
+
+touch command will change both the access and modification timestamps if the file is already existing.
+if files doesnt exist,then touch command will create an empty file
+
+cp
+copy files and directories thru terminal
+
+mv
+move or rename hte files
+if both arguments are files names, then it will rename the file
+mv file1 file2
+file1 will be moved from source to destination
+
+
+cat
+concatenate files 
+
+rm – Removes the file for you
+clear – Clears the terminal for you
+
+
+https://www.coursehero.com/file/29503056/Commands-Linux/
+
+date
+it displays the system date
+
+cal
+it displays the calendar
+
+pwd
+present working directory
+
+
+`$ mkdir newdir
+newdir will create a new folder in pwd with name newdir
+
+rm -r foldername
+rm -r newdir
+rm command will only delete the files
+to remove entire folder, rm -r foldername
+
+
+man
+it shows manual pages of a command
